@@ -1,14 +1,5 @@
 # Homeassistant Vacuum Viomi integration for HACS
 
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
-
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
-[![codecov](https://codecov.io/gh/nergal/homeassistant-vacuum-viomi/branch/master/graph/badge.svg?token=MUHLPCJY2G)](https://codecov.io/gh/nergal/homeassistant-vacuum-viomi)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![GitHub](https://img.shields.io/github/license/nergal/homeassistant-vacuum-viomi)
-[![Validation flow](https://github.com/nergal/homeassistant-vacuum-viomi/actions/workflows/workflow.yaml/badge.svg)](https://github.com/nergal/homeassistant-vacuum-viomi/actions/workflows/workflow.yaml)
-
-
 Xiaomi Viomi vacuum robot integration for Home Assistant.
 
 > :warning: **DISCLAIMER:** This code is an early alpha release with all related consequences. If you decide to use it, any feedback is appreciated
@@ -44,7 +35,3 @@ or any of its subsidiaries or its affiliates. The official Xiaomi website can be
 ## License
 This project is under the MIT license.
 
-## Additional information for users from Russia and Belarus
-* Russia has [illegally annexed Crimea in 2014](https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation) and [brought the war in Donbas](https://en.wikipedia.org/wiki/War_in_Donbas) followed by [full-scale invasion of Ukraine in 2022](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine).
-* Russia has brought sorrow and devastations to millions of Ukrainians, killed hundreds of innocent people, damaged thousands of buildings, and forced several million people to flee.
-* [Putin khuylo!](https://en.wikipedia.org/wiki/Putin_khuylo!)
