@@ -56,6 +56,7 @@ async def async_setup_platform(
         domain=PLATFORM_NAME,
         data=config,
         version=2,
+        minor_version=1,
         unique_id=config[CONF_UNIQUE_ID],
         options={},
         title=config[CONF_NAME],
