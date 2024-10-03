@@ -61,7 +61,7 @@ async def async_setup_platform(
         options={},
         title=config[CONF_NAME],
         source=SOURCE_USER,
-        iscovery_keys=(),
+        discovery_keys=(),
     )
     await async_setup_entry(hass, entry, async_add_entities)
 
