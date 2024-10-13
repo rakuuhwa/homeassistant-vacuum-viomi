@@ -1,11 +1,11 @@
 {
-    "codeowners": ["@rakuuhwa"],
+    "codeowners": ["@jmcrfp"],
     "config_flow": true,
     "dependencies": ["xiaomi_miio"],
-    "documentation": "https://github.com/rakuuhwa/homeassistant-vacuum-viomi",
+    "documentation": "https://github.com/jmcrfp/homeassistant-vacuum-viomi",
     "domain": "xiaomi_viomi",
     "iot_class": "local_polling",
-    "issue_tracker": "https://github.com/rakuuhwa/homeassistant-vacuum-viomi/issues",
+    "issue_tracker": "https://github.com/jmcrfp/homeassistant-vacuum-viomi/issues",
     "name": "Xiaomi Viomi Vaccum",
     "requirements": [
         "construct>=2.10.67",

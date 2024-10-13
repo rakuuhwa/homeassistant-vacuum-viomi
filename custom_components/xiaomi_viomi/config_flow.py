@@ -12,6 +12,7 @@ from homeassistant.const import (
     CONF_NAME,
     CONF_PLATFORM,
     CONF_TOKEN,
+    CONF_UNIQUE_ID,
     DEVICE_DEFAULT_NAME,
 )
 from homeassistant.core import HomeAssistant
@@ -94,6 +95,7 @@ async def validate_input(hass: HomeAssistant, data: Dict[str, Any]) -> Dict[str,
         CONF_TOKEN: data[CONF_TOKEN],
         CONF_MODEL: hub.device_info.model,
         CONF_NAME: name,
+        CONF_UNIQUE_ID: format_mac(hub.device_info.mac_address),
         CONF_MAC: format_mac(hub.device_info.mac_address),
     }
 

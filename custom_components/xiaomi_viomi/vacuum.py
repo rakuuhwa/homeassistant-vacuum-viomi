@@ -7,9 +7,9 @@ from homeassistant.components.vacuum import ATTR_CLEANED_AREA
 from homeassistant.components.vacuum import DOMAIN as PLATFORM_NAME
 from homeassistant.components.vacuum import STATE_ERROR, StateVacuumEntity
 from homeassistant.components.xiaomi_miio import CONF_MODEL
-from homeassistant.components.xiaomi_miio.device import XiaomiMiioEntity
+from homeassistant.components.xiaomi_miio.entity import XiaomiMiioEntity
 from homeassistant.config_entries import SOURCE_USER, ConfigEntry
-from homeassistant.const import CONF_HOST, CONF_NAME, CONF_TOKEN, STATE_OFF, STATE_ON
+from homeassistant.const import CONF_HOST, CONF_NAME, CONF_TOKEN, STATE_OFF, STATE_ON, CONF_UNIQUE_ID
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.typing import ConfigType, DiscoveryInfoType
@@ -56,8 +56,12 @@ async def async_setup_platform(
         domain=PLATFORM_NAME,
         data=config,
         version=2,
+        minor_version=1,
+        unique_id=config[CONF_UNIQUE_ID],
+        options={},
         title=config[CONF_NAME],
         source=SOURCE_USER,
+        discovery_keys=(),
     )
     await async_setup_entry(hass, entry, async_add_entities)
 
